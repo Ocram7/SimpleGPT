@@ -1,8 +1,12 @@
-![SimpleGPT banner](assets/simplegpt_banner.png)
+<div align="center">
 
-# SimpleGPT
+<img src="assets/simplegpt_banner.png" alt="SimpleGPT banner" width="100%">
+
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.01212-b31b1b.svg)](https://arxiv.org/abs/2602.01212)
+[![Venue](https://img.shields.io/badge/ICML%202026-accepted-blue.svg)](https://icml.cc/Downloads/2026)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-green.svg)](LICENSE)
+</div>
 
 This repository provides a reference implementation of SimpleGPT, a novel architecture that explores a unified normalization strategy for Transformer-based large language models.
 
@@ -85,6 +89,7 @@ We include sample configuration files for variants of `llama2_1B`, `llama2_7B`, 
 
 # Changelog
 
+1. [2026-05-01]: SimpleGPT accepted to ICML 2026!
 1. [2026-03-01]: Initial code released!
 
 ## Acknowledgements
@@ -95,6 +100,13 @@ This codebase is heavily based on the implementations of [Torchtitan](https://gi
 architectures. This repository contains only the code used for the
 Llama-based experiments. The nanoGPT-based experiments were conducted using
 the original nanoGPT codebase, available at <https://github.com/karpathy/nanoGPT>.
+
+# License
+
+This repository is released under the [BSD 3-Clause License](LICENSE). Portions of
+the code are derived from Torchtitan and retain their original Meta copyright
+notices and BSD 3-Clause license terms. See [src/LICENSE](src/LICENSE) for the
+upstream Torchtitan license text.
 
 # Citation
 
@@ -108,4 +120,3 @@ If you find our work useful, please cite:
   year={2026}
 }
 ```
-
